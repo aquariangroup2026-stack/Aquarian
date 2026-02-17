@@ -126,7 +126,7 @@ if df is not None:
         ax2.legend()
         st.pyplot(fig2)
 
-    with tabs2:
+    with tab2:
         st.header("🔍 Validation (Last 31 Days)")
 
         # 1. Split the data: Hide the last 31 days from the model
