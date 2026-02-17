@@ -63,7 +63,7 @@ df, features, target = load_and_clean_data()
 if df is not None:
     # --- SIDEBAR CONTROLS ---
     st.sidebar.header("Forecast Settings")
-    forecast_days = st.sidebar.slider("Forecast Horizon (Days)", 30, 1095, 180)
+    forecast_days = st.sidebar.slider("Forecast Horizon (Days)", 30, 365, 180)
     train_button = st.sidebar.button("Retrain Engine")
 
     # --- ENGINE LOGIC ---
