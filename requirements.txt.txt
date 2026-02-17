@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+gspread
+google-auth
+scikit-learn
+xgboost
+statsmodels
