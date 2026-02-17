@@ -133,7 +133,7 @@ if df is not None:
         
         st.subheader("Backtesting: Predicted vs Actual (Last 31 Days)")
         fig3, ax3 = plt.subplots(figsize=(12, 5))
-        ax3.bar(val_df['Date'], val_df['Rain_Binary'], alpha=0.3, color='gray', label='Actual')
+        ax3.bar(val_df['Date'], val_df['Rain_Binary'], alpha=0.3, color='red', label='Actual')
         ax3.plot(val_df['Date'], val_probs, color='blue', marker='o', label='Engine Prob')
         ax3.legend()
         st.pyplot(fig3)
